@@ -1,0 +1,154 @@
+
+/*  FANCY STYLE  */
+/*    CALLING RESPONSIVE FORMATTING SECTION      RESPONSIVE BEGIN     */
+/*    MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM */
+/*  @media screen and (max-width: 768px) {
+  body {
+  margin: 0 auto;
+  }
+   .octocat {
+     margin: 24px 0px 24px 0px;
+   }
+   .octodex {
+     display: flex;
+     flex-direction: column;
+     max-width: 450px;
+     padding: 0px;
+  }
+  .image-footer {
+    display: flex;
+  }
+}  */
+
+/*@media screen and (min-width: 768px) {
+  .octocat {
+    width: 50%;
+    float: left;
+  }
+}*/
+/*@media screen and (min-width: 768px) {
+  .octocat {
+    /*width: 100%;*/
+/*    margin: 0 auto;
+  }
+}*/
+/*    WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW */
+/*    RESPONSIVE FORMATTING SECTION BEGIN    RESPONSIVE END */
+.octodex {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+.saritocat {
+  -webkit-flex: saritocat ;
+          flex: saritocat ;
+  width: 200px;
+  min-width: 100px;
+}
+.topguntocat {
+  -webkit-flex: topguntocat;
+          flex: topguntocat;
+  width: 200px;
+}
+.carlostocat {
+  -webkit-flex: carlostocat;
+          flex: carlostocat;
+}
+.octocat img{     /*  ask here */
+  width: 445px;
+  height: 445px;
+  margin: 13px;
+  border-width: 1px;
+  border-color: gray;
+  border-style: solid;
+  border-radius: 4px;
+}
+
+
+
+
+
+
+.image-footer {
+  display: flex;
+  flex-direction: row;
+  width: 445px;
+  height: 40px;
+  border-bottom: 1px solid #CACACA;
+  justify-content: space-between;
+  text-decoration: none;
+  flex-wrap: nowrap;
+  align-items: baseline;
+}
+
+/* this inserts # sign before image number  */
+span.image-number:before {
+    content: "\0023";
+    font-weight: 800;
+    color: #909191;
+}
+/* this sets color size of lower left #number, #115  */
+.image-footer span{
+  color: #909191;
+  font-weight:600;
+}                              /*  END of #number styling */
+/* this is for CAPTION's span inserted words the AND by */
+.image-caption span{
+  text-decoration: none;
+  color: #909191;
+  font-weight: 900;
+}
+            /* this is for TOPGUNTOCAT caption */
+.image-caption a{
+  text-decoration: none;
+  color: black;
+  font-weight: 900;
+}
+.authors {
+  padding: 0;  /* gotta have this kills gap be caption and authors */
+  display: inline-block;
+  list-style-type: none;
+  text-decoration: none;
+}
+/* put the gray triangle in             GRAY TRIANGLE */
+/*.authors li{*/
+/*  display:flex;*/
+/*  width: 0;*/
+/*  border-style: solid;*/
+/*  border-width: 10px 9px 0 9px;*/
+/*  border-color: #909191 transparent transparent transparent;*/
+/*}*/
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+/*.authors a{*/
+/*  display: block;*/
+  /*  display:flex;*/
+/*  width: 0;*/
+  /*border-style: solid;*/
+/*  border-width: 10px 9px 0 9px;*/
+/*  border-color: #909191 transparent transparent transparent;*/
+  /*}*/
+
+
+.image-footer a{
+  list-style-type: none;
+}
+
+
+.image-footer {
+  margin-left: 13px;
+  margin-right: 13px;
+}
+
+.image-footer img{
+  flex-direction: row;
+  width: 27px;
+  height: 27px;
+  margin: 0px;
+  margin-top: 0;
+  margin-bottom: -8px;
+  margin-left: 4px;
+  /* list-style-type: none;*/
+  text-decoration: none;
+}
